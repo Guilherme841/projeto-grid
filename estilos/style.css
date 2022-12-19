@@ -10,8 +10,56 @@ header {
     background-position: left center;
     background-repeat: no-repeat;
     background-size: cover;
+    opacity: 0.93;
     height: 450px;
     color: white;
+    padding-bottom: 40px;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.1em;
+}
+
+a {
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.39);
+    width: 165px;
+    height: 63px;
+    padding: 20px 30px;
+    font-size: 1.1em;
+    background-color: #333333;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgba(255, 255, 255, 0.986);
+    color: #333333;
+}
+
+main {
+    background-color: rgb(230, 230, 230);
+}
+
+#section1 {
+    color: rgba(0, 0, 0, 0.63);
+}
+
+main h2,h3 {
+    padding-top: 40px;
+}
+
+main p {
+    padding: 40px;
+    font-size: 1.1em;
+}
+
+main h2,h3, p {
+    text-align: center;
 }
 
 #cabeça {
@@ -25,26 +73,50 @@ header {
 
 #cabeça > p {
     margin: auto;
-    width: 60%;
+    width: 75%;
     padding-bottom: 50px;
 }
 
 #section2 {
-    background-color: gray;
+    background-color: #333333;
     padding: 20px;
+
+}
+#section3 {
+    background-color: rgb(229, 229, 229);
+    padding: 20px;
+    color: rgba(0, 0, 0, 0.658);
+}
+
+#section4 {
+    background-color: #2690D4;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+
+#section5 {
+    background-color: #333333;
+    padding: 20px;
+    color: white;
+}
+
+#email {
+    padding: 0px;
 }
 
 .box {
-    background-color: white;
+    background-color: rgb(229, 229, 229);
     text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}
+
+.legenda {
+    color: rgba(0, 0, 0, 0.658);
 }
 
 img {
-    height: 50%;
-}
-
-#imagem {
-    
+    width: 100%;
 }
 
 footer {
@@ -52,4 +124,5 @@ footer {
     background-color: black;
     color: white;
     padding: 40px;
+    font-size: 1.1em;
 }
